@@ -11,7 +11,7 @@ from django.contrib import auth #Check for correctness
 # You'll notice that the Model class provided by Django is
 # elided (it doesn't have the attributes or methods listed.
 
-class User(auth.models.User):
+class User(models.Model):
 
 	"""def __init__(self, username, first, last, password):
 		self.first_name = first
